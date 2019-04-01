@@ -1,7 +1,5 @@
-VERSION=10.12.0
-
 build:
-	docker build -t choffmeister/node-headless-chrome:$(VERSION) .
+	docker build -t choffmeister/node-headless-chrome:10.15.0 .
 
 publish: build
-	docker push choffmeister/node-headless-chrome:$(VERSION)
+	docker push choffmeister/node-headless-chrome:10.15.0
