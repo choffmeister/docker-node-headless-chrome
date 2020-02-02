@@ -1,5 +1,5 @@
 build:
-	docker build -t choffmeister/node-headless-chrome:10.15.0 .
+	docker build -t choffmeister/node-headless-chrome:10.18.1 .
 
 publish: build
-	docker push choffmeister/node-headless-chrome:10.15.0
+	docker push choffmeister/node-headless-chrome:10.18.1
